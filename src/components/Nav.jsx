@@ -156,19 +156,28 @@ export default function Nav() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" href="/">
+                  <a
+                    className="dropdown-item"
+                    href="https://crypto-rocket-app.vercel.app/"
+                  >
                     English
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/">
+                  <a
+                    className="dropdown-item"
+                    href="https://translate.google.com/translate?hl=tr&sl=auto&u=https://crypto-rocket-app.vercel.app/"
+                  >
                     Turkish
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="dropdown-item" href="/">
+                  <a
+                    className="dropdown-item"
+                    href="https://translate.google.com/translate?hl=ru&sl=auto&u=https://crypto-rocket-app.vercel.app/"
+                  >
                     Russian
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </li>

@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body data-bs-theme="light">
+      <body data-bs-theme="light" style={{ marginTop: "0 !important" }}>
         <AutoLogin />
         <Nav />
         {children}
