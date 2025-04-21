@@ -20,4 +20,6 @@ export default function AutoLogin() {
         .catch(() => {});
     }
   }, []);
+
+  return null;
 }
