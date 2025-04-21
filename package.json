@@ -5,9 +5,9 @@
   "scripts": {
     "sync": "git clone --depth=1 -q https://github.com/Xaszanyn/Justified-Sync-Patch.git src",
     "dev": "next dev --turbopack",
-    "build": "npm run sync && next build",
-    "start": "npm run sync && next start",
-    "lint": "npm run sync && next lint"
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
