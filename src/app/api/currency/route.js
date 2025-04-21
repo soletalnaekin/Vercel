@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
-export async function GET({ url }) {
-  const symbol = new URL(url).searchParams.get("symbol");
+export async function GET(request) {
+  const url = new URL(request.url);
+  const symbol = url.searchParams.get("symbol");
 
   const data = await fetch(
     `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=${symbol}&convert=USDT`,
