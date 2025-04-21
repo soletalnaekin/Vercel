@@ -67,7 +67,14 @@ export default function Contact() {
                   rows={5}
                 ></textarea>
               </div>
-              <Button className="w-100 mt-5">Send Message</Button>
+              <Button
+                className="w-100 mt-5"
+                onClick={() =>
+                  setTimeout(() => alert("Message sended successfully."))
+                }
+              >
+                Send Message
+              </Button>
             </div>
           </div>
         </div>

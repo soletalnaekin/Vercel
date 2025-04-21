@@ -69,7 +69,12 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item fw-semibold">
-              <Link className="nav-link center px-3" href="/market">
+              <Link
+                className={`nav-link center px-3 ${
+                  pathname == "/market" ? "active" : ""
+                }`}
+                href="/market"
+              >
                 Markets
               </Link>
             </li>
