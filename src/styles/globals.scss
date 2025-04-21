@@ -112,3 +112,25 @@ main {
     }
   }
 }
+
+.market-table {
+  button:hover {
+    border-color: $primary !important;
+    background-color: $primary !important;
+    color: $white !important;
+  }
+
+  td:not(:nth-child(5)) {
+    font-weight: 600;
+  }
+
+  i {
+    margin-left: 1rem;
+    color: $secondary;
+    cursor: pointer;
+
+    &.fa-solid {
+      color: $warning;
+    }
+  }
+}
